@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
     
 })
 export class HeaderComponent {
-    navigations = ["Home",
-        "About Us",
-        "Contact Us"];
+    navigations = [{Name:"Home", route:""},
+    {Name:"About Us", route:"AboutUs"},
+    {Name:"Contact Us", route:"ContactUs"}];
 }
